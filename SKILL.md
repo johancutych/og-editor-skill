@@ -1,9 +1,9 @@
 ---
-name: og-editor
+name: OG-image-generator
 description: Build a custom Open Graph image editor for the current website. Detects the site's design tokens, fonts, and logo from source, then emits a standalone HTML + JS Canvas editor with the universal OG controls (headline, sub, brand, logo, theme, export PNG) plus any site-specific extras the source actually warrants. Use when the user asks to build an OG image generator, social card editor, or "the social cards thing" for their site.
 ---
 
-# /og-editor
+# /OG-image-generator
 
 Build an Open Graph image editor tailored to the current website. The editor reuses the site's real colors, fonts, and logo so the exported PNG looks like the site — not like a generic OG template.
 
@@ -168,8 +168,8 @@ Don't seed copy fields with placeholder text like "Your headline here". Use the 
 | Framework         | Editor HTML path              | URL after `npm run dev`              |
 |-------------------|-------------------------------|--------------------------------------|
 | Vite              | `og.html` at root             | `/og.html`                           |
-| Next.js (app)     | `app/og-editor/page.tsx`      | `/og-editor` (with `'use client'`)   |
-| Next.js (pages)   | `pages/og-editor.tsx`         | `/og-editor`                         |
+| Next.js (app)     | `app/OG-image-generator/page.tsx`      | `/OG-image-generator` (with `'use client'`)   |
+| Next.js (pages)   | `pages/OG-image-generator.tsx`         | `/OG-image-generator`                         |
 | Astro             | `src/pages/og.astro`          | `/og`                                |
 | Eleventy          | `og.html` in input dir        | `/og/`                               |
 | Plain static      | `og.html` at root             | `/og.html`                           |

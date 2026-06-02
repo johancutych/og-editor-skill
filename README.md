@@ -1,12 +1,12 @@
-# og-editor — a Claude Code skill
+# OG-image-generator — a Claude Code skill
 
 Generate a site-tailored **Open Graph / social card editor** for any web project, by introspecting the site's own design tokens, typography, brand mark, and signature visual treatments — then emitting a standalone HTML + JS Canvas editor that the team can hand-tune in the browser and export PNG cards from.
 
 The output is a two-pane browser tool: canvas stage on the left, control panel on the right. It runs under the project's existing dev server. No new dependencies.
 
-![og-editor running on loisa.ai — pixel-art sunset background, headline with chromatic-aberration ghosts on "coworker", logo + brand + status pill, and a sidebar with format / copy / scene controls](assets/showcase-loisa.png)
+![OG-image-generator running on loisa.ai — pixel-art sunset background, headline with chromatic-aberration ghosts on "coworker", logo + brand + status pill, and a sidebar with format / copy / scene controls](assets/showcase-loisa.png)
 
-*Above: `/og-editor` running on [loisa.ai](https://loisa.ai) — the maximalist example. The skill detected the site's pixel-art rendering, animated agents, sunset palette, chromatic-aberration headline ghosts, and status-pill convention, and built an editor with the full set of conditional controls on the right. A flatter site would get a much sparser editor.*
+*Above: `/OG-image-generator` running on [loisa.ai](https://loisa.ai) — the maximalist example. The skill detected the site's pixel-art rendering, animated agents, sunset palette, chromatic-aberration headline ghosts, and status-pill convention, and built an editor with the full set of conditional controls on the right. A flatter site would get a much sparser editor.*
 
 ## Why
 
@@ -30,23 +30,23 @@ Both files reference your project's existing CSS variables, fonts, and logo. The
 Skills live in `~/.claude/skills/`. To install:
 
 ```bash
-git clone https://github.com/johancutych/og-editor-skill.git ~/.claude/skills/og-editor
+git clone https://github.com/johancutych/OG-image-generator.git ~/.claude/skills/OG-image-generator
 ```
 
 Or if you've already cloned the repo elsewhere:
 
 ```bash
-cp -r path/to/og-editor-skill ~/.claude/skills/og-editor
+cp -r path/to/OG-image-generator ~/.claude/skills/OG-image-generator
 ```
 
-Restart Claude Code (or run `/skills` to refresh). The skill will appear as `og-editor`.
+Restart Claude Code (or run `/skills` to refresh). The skill will appear as `OG-image-generator`.
 
 ## Use
 
 In any web project, run:
 
 ```
-/og-editor
+/OG-image-generator
 ```
 
 Claude will:
