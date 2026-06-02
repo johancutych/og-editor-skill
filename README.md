@@ -4,6 +4,10 @@ Generate a site-tailored **Open Graph / social card editor** for any web project
 
 The output is a two-pane browser tool: canvas stage on the left, control panel on the right. It runs under the project's existing dev server. No new dependencies.
 
+![og-editor running on loisa.com — pixel-art sunset background, headline with chromatic-aberration ghosts on "coworker", logo + brand + status pill, and a sidebar with format / copy / scene controls](assets/showcase-loisa.png)
+
+*Above: `/og-editor` running on [loisa.com](https://loisa.com) — the maximalist example. The skill detected the site's pixel-art rendering, animated agents, sunset palette, chromatic-aberration headline ghosts, and status-pill convention, and built an editor with the full set of conditional controls on the right. A flatter site would get a much sparser editor.*
+
 ## Why
 
 Most OG image tools are generic templates that look like every other OG image tool. This skill produces an editor that uses **the actual site's** CSS variables, fonts, and logo — so the exported social cards feel like the site, not like a Canva export.
