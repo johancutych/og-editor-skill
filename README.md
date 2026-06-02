@@ -26,7 +26,7 @@ Both files reference your project's existing CSS variables, fonts, and logo. The
 Skills live in `~/.claude/skills/`. To install:
 
 ```bash
-git clone https://github.com/<you>/og-editor-skill.git ~/.claude/skills/og-editor
+git clone https://github.com/johancutych/og-editor-skill.git ~/.claude/skills/og-editor
 ```
 
 Or if you've already cloned the repo elsewhere:
