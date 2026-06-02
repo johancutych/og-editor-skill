@@ -4,9 +4,9 @@ Generate a site-tailored **Open Graph / social card editor** for any web project
 
 The output is a two-pane browser tool: canvas stage on the left, control panel on the right. It runs under the project's existing dev server. No new dependencies.
 
-![og-editor running on loisa.com — pixel-art sunset background, headline with chromatic-aberration ghosts on "coworker", logo + brand + status pill, and a sidebar with format / copy / scene controls](assets/showcase-loisa.png)
+![og-editor running on loisa.ai — pixel-art sunset background, headline with chromatic-aberration ghosts on "coworker", logo + brand + status pill, and a sidebar with format / copy / scene controls](assets/showcase-loisa.png)
 
-*Above: `/og-editor` running on [loisa.com](https://loisa.com) — the maximalist example. The skill detected the site's pixel-art rendering, animated agents, sunset palette, chromatic-aberration headline ghosts, and status-pill convention, and built an editor with the full set of conditional controls on the right. A flatter site would get a much sparser editor.*
+*Above: `/og-editor` running on [loisa.ai](https://loisa.ai) — the maximalist example. The skill detected the site's pixel-art rendering, animated agents, sunset palette, chromatic-aberration headline ghosts, and status-pill convention, and built an editor with the full set of conditional controls on the right. A flatter site would get a much sparser editor.*
 
 ## Why
 
@@ -14,7 +14,7 @@ Most OG image tools are generic templates that look like every other OG image to
 
 The skill is opinionated about what makes a good OG image (1200×630, ≥4.5:1 contrast, ≤10-word headline, logo bottom-corner, one focal point) and a good editor (live preview at native resolution, a handful of controls not a dashboard, sensible defaults pulled from the site, one-click PNG export).
 
-It was originally built for [loisa.com](https://loisa.com) (CRT + pixel-art aesthetic). The skill generalizes the pattern so it works on flat-and-minimal sites, gradient-heavy sites, pixel-art sites — anything. Anything site-specific (chromatic-aberration headline ghosts, scanline overlays, pixel-art renderers, animated backgrounds) is opt-in: the skill only adds a control if the site actually has that pattern in its source.
+It was originally built for [loisa.ai](https://loisa.ai) (CRT + pixel-art aesthetic). The skill generalizes the pattern so it works on flat-and-minimal sites, gradient-heavy sites, pixel-art sites — anything. Anything site-specific (chromatic-aberration headline ghosts, scanline overlays, pixel-art renderers, animated backgrounds) is opt-in: the skill only adds a control if the site actually has that pattern in its source.
 
 ## What it does
 
@@ -86,7 +86,7 @@ For sites with distinctive visual treatments, the skill adds **one extra control
 | Optional decoration (status pill, badge, tag)   | Checkbox                 |
 | Resolution / scale (pixel-art, halftone)        | Single integer slider    |
 
-The default is **"no extras"**. A maximalist site like loisa.com (pixel-art + animated + CRT overlays + chromatic-aberration headline) ends up with ~7 conditional controls. Most sites get zero. If you find yourself adding more than that for one site, you're exposing engineering knobs instead of vibe controls.
+The default is **"no extras"**. A maximalist site like loisa.ai (pixel-art + animated + CRT overlays + chromatic-aberration headline) ends up with ~7 conditional controls. Most sites get zero. If you find yourself adding more than that for one site, you're exposing engineering knobs instead of vibe controls.
 
 Full principles and worked examples are in `SKILL.md`.
 

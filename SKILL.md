@@ -75,7 +75,7 @@ Clean SaaS landing page. Sans-serif h1 over a single-tone background. No animati
 
 Editor controls: **the universal panel. Nothing else.**
 
-### Worked example — a maximalist site (loisa.com)
+### Worked example — a maximalist site (loisa.ai)
 
 The loisa site is unusually rich: pixel-art rendering, animated agents wandering a sunset scene, CRT scanlines + vignette + flicker overlays, a hero h1 with chromatic-aberration ghosts on specific words, a footer "All systems normal" status pill.
 
